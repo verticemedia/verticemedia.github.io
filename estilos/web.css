@@ -26,7 +26,6 @@ header.barra{position:sticky;top:0;z-index:10;height:80px;background:hsl(0 0% 10
 header.barra .contenido-ancho{display:flex;align-items:center;justify-content:space-between;gap:16px;height:80px;position:relative}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--texto);font-weight:700;letter-spacing:.12em;font-size:15px;white-space:nowrap}
 .logo svg{width:30px;height:30px;flex:none}.logo b{color:var(--primario);font-weight:700}
-.ia{border:2px solid currentColor;border-radius:5px;padding:0 4px;font-size:11px;letter-spacing:.04em;line-height:1.4}
 .menu{display:flex;gap:4px;position:absolute;left:50%;transform:translateX(-50%)}
 .menu a{color:var(--texto);text-decoration:none;font-weight:500;font-size:15px;padding:8px 14px;border-radius:999px}
 .menu a:hover{background:var(--acento);color:var(--primario)}.menu a[aria-current]{color:var(--primario);background:var(--acento)}
